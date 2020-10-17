@@ -2,6 +2,10 @@ import {createGlobalStyle} from "styled-components";
 import {CommentMain} from "Modules/darkMode/UI/cardMain";
 
 const VideoPlayDarkModeStyle = createGlobalStyle`
+    body {
+      color: var(--dark-font-0);
+    }
+    
     // 播放器mini窗口
     #bofqi.mini-player:before {
       box-shadow: #000000 0 0 8px;
