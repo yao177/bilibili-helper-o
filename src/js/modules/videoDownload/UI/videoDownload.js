@@ -23,7 +23,8 @@ const videoDataCache = {
     new: {},
 };
 
-const hasCopyright = () => !!location.href.match(/^https:\/\/www\.bilibili\.com\/bangumi\/play/);
+// const hasCopyright = () => !!location.href.match(/^https:\/\/www\.bilibili\.com\/bangumi\/play/);
+const hasCopyright = false;
 
 export default () => {
     const {color} = theme;
